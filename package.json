@@ -2,16 +2,16 @@
   "name": "book-translator",
   "version": "1.0.0",
   "description": "Translate Czech books to Spanish and English using DeepL API with context continuity",
-  "main": "translator.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node translator.js",
+    "start": "node index.js",
     "test": "node test.js"
   },
   "dependencies": {
-    "tesseract.js": "^5.0.4",
     "axios": "^1.6.0",
     "pdfkit": "^0.14.0",
-    "sharp": "^0.32.6"
+    "sharp": "^0.32.6",
+    "tesseract.js": "^5.1.1"
   },
   "devDependencies": {
     "nodemon": "^3.0.0"
@@ -25,9 +25,6 @@
     "spanish",
     "english"
   ],
-  "author": "Your Name",
-  "license": "MIT",
-  "engines": {
-    "node": ">=22.0.0"
-  }
+  "author": "",
+  "license": "MIT"
 }
